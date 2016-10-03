@@ -20,7 +20,7 @@ The console will show this:
 #profiler - active: "kill -s SIGPIPE ${PID}"
 ```
 
-Run the command (`kill -s SIGPIPE ${PID}`) to save the snapshot.
+Run the command (`kill -s SIGPIPE ${PID}`) to save a snapshot.
 
 ```
 #profiler - signal SIGPIPE received
@@ -29,5 +29,5 @@ Run the command (`kill -s SIGPIPE ${PID}`) to save the snapshot.
 
 ## Options
 
-- `snapshotPath`: folder to sabe the snapshot.
+- `snapshotPath`: folder to save the snapshot.
 - `process.env.SNAPSHOT_PATH`: same as `snapshotPath`
