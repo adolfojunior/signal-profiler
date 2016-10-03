@@ -1,0 +1,4 @@
+# .gitignore - the files to not push via git
+lib/
+node_modules/
+npm-debug.log
