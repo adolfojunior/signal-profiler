@@ -14,9 +14,16 @@ npm install --save signal-profiler
 import signalProfiler from 'signal-profiler'
 
 // attach profiler
-signalProfiler({
-  ...options
-})
+signalProfiler()
+```
+
+OR
+
+```javascript
+var signalProfiler = require('signal-profiler')
+
+// attach profiler
+signalProfiler()
 ```
 
 The console will show this:
@@ -33,5 +40,11 @@ Run the command (`kill -s SIGPIPE ${PID}`) to save a snapshot.
 
 ## Options
 
-- `snapshotPath`: folder to save the snapshot.
+```
+signalProfiler({
+  // folder to save the snapshot
+  snapshotPath: `.`
+})
+```
+
 - `process.env.SNAPSHOT_PATH`: same as `snapshotPath`
