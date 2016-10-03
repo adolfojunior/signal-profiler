@@ -1,10 +1,14 @@
 # Signal Profiler
 
-Attach a signal listener to trigger `v8-profiler`
+Attach a listener to a SIGPIPE signal, that will trigger [v8-profiler](https://github.com/node-inspector/v8-profiler) snapshot.
+
+## Installation
+
+```
+npm install --save signal-profiler
+```
 
 ## Usage
-
-`npm install --save signal-profiler`
 
 ```javascript
 import signalProfiler from 'signal-profiler'
