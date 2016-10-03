@@ -18,7 +18,7 @@
     "url": "git+https://github.com/adolfojunior/signal-profiler"
   },
   "license": "MIT",
-  "main": "lib/background-promise.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "npm run compile",
     "compile": "babel -d lib/ src/",
